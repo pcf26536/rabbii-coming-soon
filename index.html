@@ -22,92 +22,8 @@
   <!-- Material Design Bootstrap -->
   <link href="mdb/css/mdb.min.css" rel="stylesheet">
   <!-- Your custom styles (optional) -->
-  <link href="css/style.min.css" rel="stylesheet">
-  <style type="text/css">
-    html,
-    body,
-    header,
-    .view {
-      height: 100%;
-    }
-
-    @media (max-width: 559px) {
-
-      html,
-      body,
-      header,
-      .view {
-        height: 1000px;
-      }
-    }
-
-    @media (min-width: 560px) and (max-width: 740px) {
-
-      html,
-      body,
-      header,
-      .view {
-        height: 700px;
-      }
-    }
-
-    @media (min-width: 800px) and (max-width: 850px) {
-
-      html,
-      body,
-      header,
-      .view {
-        height: 600px;
-      }
-    }
-
-    @media (min-width: 800px) and (max-width: 850px) {
-      .navbar:not(.top-nav-collapse) {
-        background: #1C2331 !important;
-      }
-    }
-
-    .scroll {
-      height: 550px;
-      overflow-y: scroll;
-    }
-
-    .text-purple {
-      color: #f442f1;
-    }
-
-    .text-torquise {
-      color:#30fbff !important;
-    }
-
-    .logo-img {
-      background-repeat: no-repeat;
-      height: 37px;
-    }
-
-    ul li.h3-responsive {
-      list-style-image: url("images/favicon/favicon-32x32.png");
-    }
-
-    .video-intro {
-      position: fixed;
-      right: 0;
-      bottom: 0;
-      min-width: 100%;
-      min-height: 100%;
-    }
-
-    .bg-blue {
-      background-color: #1C2331;
-    }
-
-    @media only screen and (max-width: 600px) {
-      body  {
-        width: 93%;
-      }
-    }
-
-  </style>
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/main.css">
 </head>
 
 <body>
@@ -124,8 +40,9 @@
       </a>
 
       <!-- Collapse -->
-      <button class="navbar-toggler text-torquise" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler text-torquise" type="button" data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon text-torquise"></span>
       </button>
 
@@ -196,13 +113,13 @@
   </nav>
   <!-- Navbar -->
 
-   <!-- Full Page Intro -->
-   <div class="items">
+  <!-- Full Page Intro -->
+  <div class="items">
 
-    <video class="video-intro" poster="https://mdbootstrap.com/img/Photos/Others/background.jpg" playsinline autoplay
-      muted loop>
+    <!-- <video class="video-intro" poster="https://mdbootstrap.com/img/Photos/Others/background.jpg" playsinline autoplay
+           muted loop>
       <source src="https://mdbootstrap.com/img/video/Lines-min.mp4" type="video/mp4">
-    </video>
+    </video> -->
 
     <!-- Mask & flexbox options-->
     <div class="content">
@@ -244,7 +161,8 @@
           </a>
         </div>
 
-        <div class="tutor-div col-lg-5 mb-5 ml-5 text-torquise border border-secondary p-3 bg-blue ml-4 ml-lg-auto ml-md-4">
+        <div
+             class="tutor-div col-lg-5 mb-5 ml-5 text-torquise border border-secondary p-3 bg-blue ml-4 ml-lg-auto ml-md-4">
           <h4 class="mb-4">
             <strong>Or are you looking for some a job with flexible timing? Additionaly are you looking for
               a means to increase your income?</strong>
@@ -256,8 +174,8 @@
           </h4>
 
           <h4 class="mb-2"><strong>
-            By clicking on the TUTOR tab and get to work for an amazing company as well as help
-            others with your knowledge</strong>
+              By clicking on the TUTOR tab and get to work for an amazing company as well as help
+              others with your knowledge</strong>
           </h4>
 
           <a class="btn btn-purple btn-lg btn-rounded" data-toggle="modal" data-target="#modalCoupon">Tutor
@@ -269,7 +187,8 @@
 
           <p class="h3 text-center mb-4 text-torquise">Tutor Advertisement</p>
           <div class="embed-responsive embed-responsive-16by9 border border-secondary p-5 bg-blue">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/aHA_UjXVQTM?version=3&loop=1&playlist=aHA_UjXVQTM"
+            <iframe class="embed-responsive-item"
+                    src="https://www.youtube.com/embed/aHA_UjXVQTM?version=3&loop=1&playlist=aHA_UjXVQTM"
                     allowfullscreen></iframe>
           </div>
         </div>
@@ -281,7 +200,7 @@
     <!-- Mask & flexbox options-->
 
     <!-- Modal: Phone Numbers-->
-      <div class="modal fade right" id="modalRelatedContent" tabindex="-1" role="dialog"
+    <div class="modal fade right" id="modalRelatedContent" tabindex="-1" role="dialog"
          aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="true">
       <div class="modal-dialog modal-side modal-bottom-right modal-notify modal-success"
            role="document">
@@ -322,11 +241,11 @@
         </div>
         <!--/.Content-->
       </div>
-      </div>
+    </div>
     <!-- Modal: modalAbandonedCart-->
 
     <!-- Modal: Mail-->
-      <div class="modal fade right" id="modalAbandonedCart" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+    <div class="modal fade right" id="modalAbandonedCart" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
          aria-hidden="true" data-backdrop="true">
       <div class="modal-dialog modal-side modal-bottom-left modal-notify modal-info" role="document">
         <!--Content-->
@@ -351,7 +270,7 @@
 
               <div class="col-9">
                 <p class="pt-1"><a href="mailto:info@rabbii.co.ke" target="_blank">
-                  info@rabbii.co.ke</a> - Enquires</p>
+                    info@rabbii.co.ke</a> - Enquires</p>
               </div>
 
               <div class="col-2">
@@ -360,7 +279,7 @@
 
               <div class="col-9">
                 <p class="pt-1"><a href="mailto:ceo@rabbii.co.ke" target="_blank">
-                  ceo@rabbii.co.ke</a> - C.E.O</p>
+                    ceo@rabbii.co.ke</a> - C.E.O</p>
               </div>
 
               <div class="col-2">
@@ -369,7 +288,7 @@
 
               <div class="col-9">
                 <p class="pt-1"><a href="mailto:hr@rabbii.co.ke" target="_blank">
-                  hr@rabbii.co.ke</a> - H.R Department</p>
+                    hr@rabbii.co.ke</a> - H.R Department</p>
               </div>
 
               <div class="col-2">
@@ -378,7 +297,7 @@
 
               <div class="col-9">
                 <p class="pt-1"><a href="mailto:cit@rabbii.co.ke" target="_blank">
-                  cit@rabbii.co.ke</a> - I.T Department</p>
+                    cit@rabbii.co.ke</a> - I.T Department</p>
               </div>
             </div>
           </div>
@@ -386,34 +305,34 @@
         </div>
         <!--/.Content-->
       </div>
-      </div>
+    </div>
     <!-- Modal: Mail-->
 
     <!-- tutor Modal -->
-      <div class="modal fade top" tabindex="-1" role="dialog"
-           aria-hidden="true" data-backdrop="true" id="modalCoupon" aria-labelledby="modalCoupon">
-        <div class="modal-dialog modal-frame modal-top modal-notify modal-info" role="document">
-      <!--Content-->
-      <div class="modal-content">
-        <!--Body-->
-        <div class="modal-body">
-          <div class="row d-flex justify-content-center align-items-center">
+    <div class="modal fade top" tabindex="-1" role="dialog"
+         aria-hidden="true" data-backdrop="true" id="modalCoupon" aria-labelledby="modalCoupon">
+      <div class="modal-dialog modal-frame modal-top modal-notify modal-info" role="document">
+        <!--Content-->
+        <div class="modal-content">
+          <!--Body-->
+          <div class="modal-body">
+            <div class="row d-flex justify-content-center align-items-center">
 
-            <p class="pt-3 mx-4"><strong>Register as an</strong></p>
+              <p class="pt-3 mx-4"><strong>Register as an</strong></p>
 
-            <a type="button" class="btn btn-purple btn-rounded">
-              TSC Tutor
-            </a>
-            <p class="pt-3 mx-4">or</p>
-            <a type="button" class="btn btn-info btn-rounded" href="https://forms.gle/LerPUYib9EJ3yMxr7">
-              Non-TSC Tutor
-            </a>
+              <a type="button" class="btn btn-purple btn-rounded">
+                TSC Tutor
+              </a>
+              <p class="pt-3 mx-4">or</p>
+              <a type="button" class="btn btn-info btn-rounded" href="https://forms.gle/LerPUYib9EJ3yMxr7">
+                Non-TSC Tutor
+              </a>
+            </div>
           </div>
         </div>
+        <!--/.Content-->
       </div>
-      <!--/.Content-->
-        </div>
-      </div>
+    </div>
     <!-- tutor Modal -->
 
   </div>
@@ -429,129 +348,132 @@
       <div id="faqs" class="">
         <div class="row text-left mb-5 wow fadeIn">
           <div class="navbar font-weight-bold d-none d-lg-block d-md-block col-1 p-2">
-              <a class="navbar-brand m-auto w-100 px-3 border-bottom border-primary text-torquise">Category</a>
+            <a class="navbar-brand m-auto w-100 px-3 border-bottom border-primary text-torquise">Category</a>
+            <nav class="nav nav-pills flex-column">
+              <a class="nav-link text-torquise" href="#teecha-faqs">TeeCha</a>
               <nav class="nav nav-pills flex-column">
-                <a class="nav-link text-torquise" href="#teecha-faqs">TeeCha</a>
-                <nav class="nav nav-pills flex-column">
-                  <a class="nav-link ml-3 my-1 text-torquise" href="#teecha-faqs-a">A. Client</a>
-                  <a class="nav-link ml-3 my-1 text-torquise" href="#teecha-faqs-b">B. Tutor</a>
-                </nav>
+                <a class="nav-link ml-3 my-1 text-torquise" href="#teecha-faqs-a">A. Client</a>
+                <a class="nav-link ml-3 my-1 text-torquise" href="#teecha-faqs-b">B. Tutor</a>
               </nav>
+            </nav>
           </div>
           <div class="col-10 m-auto bg-blue border">
 
-          <div class="d-flex justify-content-center my-2 text-purple">
-            <h2>FAQs</h2>
-          </div>
-          <div class="scroll p-4">
-            <h4 id="teecha-faqs" class="text-purple">TeeCha</h4>
-            <h5 id="teecha-faqs-a" class="text-center text-purple">A. Client</h5>
-            <p class="text-center text-purple">-------------------------</p>
-            <ol class="text-torquise mb-4 font-md">
-              <li class="font-weight-bold">What is TeeCha?</li>
-              <p>It is a service where a student is linked up with a tutor tailored to meet
-                the specific academic needs of the student.</p>
+            <div class="d-flex justify-content-center my-2 text-purple">
+              <h2>FAQs</h2>
+            </div>
+            <div class="scroll p-4">
+              <h4 id="teecha-faqs" class="text-purple">TeeCha</h4>
+              <h5 id="teecha-faqs-a" class="text-center text-purple">A. Client</h5>
+              <p class="text-center text-purple">-------------------------</p>
+              <ol class="text-torquise mb-4 font-md">
+                <li class="font-weight-bold">What is TeeCha?</li>
+                <p>It is a service where a student is linked up with a tutor tailored to meet
+                  the specific academic needs of the student.</p>
 
-              <li class="font-weight-bold">Who will teach?</li>
-              <p>Only teachers and qualified tutors are allowed to teach your child. All tutors and
-                teachers are vetted by Rabbii&reg; and deemed fit to teach a student.
-                Follow up is also done during the tutoring period to ensure objectives are being met.
-              </p>
+                <li class="font-weight-bold">Who will teach?</li>
+                <p>Only teachers and qualified tutors are allowed to teach your child. All tutors and
+                  teachers are vetted by Rabbii&reg; and deemed fit to teach a student.
+                  Follow up is also done during the tutoring period to ensure objectives are being met.
+                </p>
 
-              <li class="font-weight-bold">Can I trust my tutor:</li>
-              <ol>
-                <li class="font-weight-bold">In terms of conduct</li>
-                <p>We as a company believe in the values we have and the code of conducts
-                  set. Our employees also have to live by the values we hold and abide by
-                  the code of conduct set for all of us. Therefore every tutor working in
-                  Rabbii&reg; shares the same values and thus can be trusted.</p>
+                <li class="font-weight-bold">Can I trust my tutor:</li>
+                <ol>
+                  <li class="font-weight-bold">In terms of conduct</li>
+                  <p>We as a company believe in the values we have and the code of conducts
+                    set. Our employees also have to live by the values we hold and abide by
+                    the code of conduct set for all of us. Therefore every tutor working in
+                    Rabbii&reg; shares the same values and thus can be trusted.</p>
 
-                <li class="font-weight-bold">In terms of delivery</li>
-                <p>Every tutor taken by Rabbii&reg; is the best in their respective fields.
-                  Coupling this with systems set in place to ensure that a student
-                  constantly improves assures of a positive result from the tutor and in
-                  the student.</p>
+                  <li class="font-weight-bold">In terms of delivery</li>
+                  <p>Every tutor taken by Rabbii&reg; is the best in their respective fields.
+                    Coupling this with systems set in place to ensure that a student
+                    constantly improves assures of a positive result from the tutor and in
+                    the student.</p>
+                </ol>
+
+                <li class="font-weight-bold">Where will the lessons be?</li>
+                <p>Lessons are done where the client specifies them to be, mainly at the client’s premise.</p>
+
+                <li class="font-weight-bold">Can a female student have a male tutor or Male student with a female tutor
+                </li>
+                <p>Only female tutors are allowed to teach female students and male tutors are
+                  allowed to teach only male students.</p>
+
+                <li class="font-weight-bold">When can I get a tutor?</li>
+                <p>A tutor is made available to you within a day of the client requesting. Request are
+                  made through <a>the following link</a> where your details and
+                  those of the
+                  student are captured.
+                </p>
+
+                <li class="font-weight-bold">What if I’m dissatisfied with my tutor</li>
+                <p>You can contact Rabbii&reg; at any time and your concerns will be addressed as
+                  soon as possible.</p>
               </ol>
+              <hr class="my-4">
+              <h5 id="teecha-faqs-b" class="text-center mt-4 text-purple">B. Tutor</h5>
+              <p class="text-center text-purple">-------------------------</p>
+              <ol class="text-torquise mb-2 font-md">
+                <li class="font-weight-bold">Who can teach?</li>
+                <p>Every campus student is allowed to register with Rabbii through the link.
+                  Your suitability to a student will be matched with what the student desires to be taught.
+                  This include the subjects you want to teach, your mastery of the subject and your ability to teach a
+                  student.
+                </p>
+                <p>After this are verified then you are placed to teach the student.</p>
 
-              <li class="font-weight-bold">Where will the lessons be?</li>
-              <p>Lessons are done where the client specifies them to be, mainly at the client’s premise.</p>
+                <li class="font-weight-bold">Does tutoring interfere with my schedule?</li>
+                <p>Once a tutor with Rabbii&reg; then attendance of classes will be of high
+                  priority. However the time set for classes is agreed between the tutor
+                  and the client for the convenience of both of them.</p>
 
-              <li class="font-weight-bold">Can a female student have a male tutor or Male student with a female tutor</li>
-              <p>Only female tutors are allowed to teach female students and male tutors are
-                allowed to teach only male students.</p>
+                <li class="font-weight-bold">Do I get to choose the subjects I teach?</li>
+                <p>When you fill in your details as a tutor you will get the chance to specify
+                  the subjects you will want to teach.</p>
 
-              <li class="font-weight-bold">When can I get a tutor?</li>
-              <p>A tutor is made available to you within a day of the client requesting. Request are
-                made through <a>the following link</a> where your details and
-                those of the
-                student are captured.
-              </p>
+                <li class="font-weight-bold">Can I teach more than one subject?</li>
+                <p>You can teach more than one subject as long as you have a mastery in the subjects you
+                  want to teach. You will specify the subjects you want to teach as you sign up. But to
+                  every student you are a placed you are allowed a maximum of two subjects.
+                </p>
 
-              <li class="font-weight-bold">What if I’m dissatisfied with my tutor</li>
-              <p>You can contact Rabbii&reg; at any time and your concerns will be addressed as
-                soon as possible.</p>
-            </ol>
-            <hr class="my-4">
-            <h5 id="teecha-faqs-b" class="text-center mt-4 text-purple">B. Tutor</h5>
-            <p class="text-center text-purple">-------------------------</p>
-            <ol class="text-torquise mb-2 font-md">
-              <li class="font-weight-bold">Who can teach?</li>
-              <p>Every campus student is allowed to register with Rabbii through the link.
-                Your suitability to a student will be matched with what the student desires to be taught.
-                This include the subjects you want to teach, your mastery of the subject and your ability to teach a student.
-              </p>
-              <p>After this are verified then you are placed to teach the student.</p>
+                <li class="font-weight-bold">How do I plan for classes?</li>
+                <p>The total number of session you will attend are communicated to you by Rabbii&reg;.
+                  Days in which you go for the classes and time is planned at your convenience and
+                  the convenience of the student/client.</p>
 
-              <li class="font-weight-bold">Does tutoring interfere with my schedule?</li>
-              <p>Once a tutor with Rabbii&reg; then attendance of classes will be of high
-                priority. However the time set for classes is agreed between the tutor
-                and the client for the convenience of both of them.</p>
+                <li class="font-weight-bold">Where do I get resources to teach i.e. books and past papers?</li>
+                <p>As we begin you will be required to look for books from where you will prepare for
+                  your classes. But as we proceed all this material will be made available to you online.</p>
 
-              <li class="font-weight-bold">Do I get to choose the subjects I teach?</li>
-              <p>When you fill in your details as a tutor you will get the chance to specify
-                the subjects you will want to teach.</p>
+                <li class="font-weight-bold">How long does a session last?</li>
+                <p>Each session lasts a minimum of 2 and a half hours.</p>
 
-              <li class="font-weight-bold">Can I teach more than one subject?</li>
-              <p>You can teach more than one subject as long as you have a mastery in the subjects you
-                want to teach. You will specify the subjects you want to teach as you sign up. But to
-                every student you are a placed you are allowed a maximum of two subjects.
-              </p>
+                <li class="font-weight-bold">What if I only want to teach a high school or a Primary school
+                  student?</li>
+                <p>Your preference is considered.</p>
 
-              <li class="font-weight-bold">How do I plan for classes?</li>
-              <p>The total number of session you will attend are communicated to you by Rabbii&reg;.
-                Days in which you go for the classes and time is planned at your convenience and
-                the convenience of the student/client.</p>
+                <li class="font-weight-bold">Which skills can I teach?</li>
+                <p>Skills are in several Categories. This include Music, Foreign languages, Professional
+                  software, Art, Fashion and Design among others. In music there is instruments, vocals and DJ.
+                  Under Instruments there is the Guitar, violin, Keyboard etc. You get to choose the skill to teach from
+                  this category.
+                  <a target="_blank">(To view the full category visit our blog) here</a>
+                </p>
 
-              <li class="font-weight-bold">Where do I get resources to teach i.e. books and past papers?</li>
-              <p>As we begin you will be required to look for books from where you will prepare for
-                your classes. But as we proceed all this material will be made available to you online.</p>
+                <li class="font-weight-bold">How much do I get paid?</li>
+                <p>We believe in the value that you impart in the student. Every session costs sh. 700.
+                  The terms of payment are stipulated under ‘terms of service’ a document you agree to
+                  before beginning your sessions as a tutor with Rabbii&reg;</p>
 
-              <li class="font-weight-bold">How long does a session last?</li>
-              <p>Each session lasts a minimum of 2 and a half hours.</p>
+                <li class="font-weight-bold">When will I get a client?</li>
+                <p>You are contacted as soon as a student matching your specifications is found.</p>
 
-              <li class="font-weight-bold">What if I only want to teach a high school or a Primary school
-                student?</li>
-              <p>Your preference is considered.</p>
-
-              <li class="font-weight-bold">Which skills can I teach?</li>
-              <p>Skills are in several Categories. This include Music, Foreign languages, Professional
-                software, Art, Fashion and Design among others. In music there is instruments, vocals and DJ.
-                Under Instruments there is the Guitar, violin, Keyboard etc. You get to choose the skill to teach from this category.
-                <a target="_blank">(To view the full category visit our blog) here</a>
-              </p>
-
-              <li class="font-weight-bold">How much do I get paid?</li>
-              <p>We believe in the value that you impart in the student. Every session costs sh. 700.
-                The terms of payment are stipulated under ‘terms of service’ a document you agree to
-                before beginning your sessions as a tutor with Rabbii&reg;</p>
-
-              <li class="font-weight-bold">When will I get a client?</li>
-              <p>You are contacted as soon as a student matching your specifications is found.</p>
-
-            </ol>
+              </ol>
+            </div>
           </div>
         </div>
-      </div>
       </div>
 
       <hr class="my-4">
@@ -561,17 +483,18 @@
           <div class="col-11 m-auto bg-blue border">
             <h2 class="text-left text-torquise pl-5 py-3">About Us</h2>
             <div class="text-purple mx-4 p-3">
-                <div class="h3-responsive">Our Mission</div>
-                <p>-----------</p>
-                <p class="font-weight-bold mb-5">To support people of all ages through use of
-                  technology to acquire
-                  and apply knowledge; either for career, academic progress, or their talents, hobbies and
-                  interests, anywhere they are and at a time of their convenience.  </p>
-  
-                <div class="h3-responsive mt-5">Our Vision</div>
-                <p>-----------</p>
-                <p class="font-weight-bold">To see education transform the society by empowering them to achieve their goals and
-                  dreams.</p>
+              <div class="h3-responsive">Our Mission</div>
+              <p>-----------</p>
+              <p class="font-weight-bold mb-5">To support people of all ages through use of
+                technology to acquire
+                and apply knowledge; either for career, academic progress, or their talents, hobbies and
+                interests, anywhere they are and at a time of their convenience. </p>
+
+              <div class="h3-responsive mt-5">Our Vision</div>
+              <p>-----------</p>
+              <p class="font-weight-bold">To see education transform the society by empowering them to achieve their
+                goals and
+                dreams.</p>
               <div class="h3-responsive mt-5">Our Services</div>
               <p>-----------</p>
               <p class="font-weight-bold">We provide resources and platforms to learners that will help them
@@ -603,25 +526,25 @@
                 </ul>
               </div>
             </div>
-            </div>
           </div>
         </div>
+      </div>
 
-        <hr class="my-4">
+      <hr class="my-4">
 
-        <div id="blogs" class="m-auto">
-          <div class="row mb-5 wow fadeIn">
-            <div class="border bg-blue col-10 p-5 m-auto">
-              <h2 class="text-left text-torquise pl-5 py-3">Blogs</h2>
-                        <!--Carousel Wrapper-->
-          <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+      <div id="blogs" class="m-auto">
+        <div class="row mb-5 wow fadeIn">
+          <div class="border bg-blue col-10 p-5 m-auto">
+            <h2 class="text-left text-torquise pl-5 py-3">Blogs</h2>
+            <!--Carousel Wrapper-->
+            <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
               <!--Indicators-->
               <ol class="carousel-indicators">
                 <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
                 <li data-target="#carousel-example-2" data-slide-to="1"></li>
               </ol>
               <!--/.Indicators-->
-  
+
               <!--Slides-->
               <div class="carousel-inner" role="listbox">
                 <div class="carousel-item active card card-image" style="background-image:
@@ -635,20 +558,22 @@
                       <p>Rabbii&reg; aims to bring a paradigm shift in the learning sector by
                         providing technology solutions. We exist to add value
                         <span class="d-none d-lg-block d-md-block">
-                            to the society through providing Educational support services. The
-                            company is managed by a vibrant and energetic team with different skills
-                            sets and abilities who</span><span class="d-none d-lg-block d-md-block">are on a big mission to support
-                       people of all ages acquire and apply knowledge</span><span class="d-none d-lg-block d-md-block"> either for career, academic progress
-                        or new knowledge and skills in their talents, hobbies and interests
+                          to the society through providing Educational support services. The
+                          company is managed by a vibrant and energetic team with different skills
+                          sets and abilities who</span><span class="d-none d-lg-block d-md-block">are on a big mission
+                          to support
+                          people of all ages acquire and apply knowledge</span><span
+                              class="d-none d-lg-block d-md-block"> either for career, academic progress
+                          or new knowledge and skills in their talents, hobbies and interests
                           anywhere</span></p>
-                        <a class="btn btn-pink btn-rounded" target="_blank"
-                           href="https://rabbiitech.wordpress.com/2019/05/30/rabbii-teecha/">
-                          <i class="fas fa-clone left"></i> View Blog</a>
+                      <a class="btn btn-pink btn-rounded" target="_blank"
+                         href="https://rabbiitech.wordpress.com/2019/05/30/rabbii-teecha/">
+                        <i class="fas fa-clone left"></i> View Blog</a>
                     </div>
                   </div>
                   <!-- Content -->
                 </div>
-  
+
                 <div class="carousel-item card card-image" style="background-image:
                 url(https://rabbiitech.files.wordpress.com/2019/05/lshenryford_09_2000-e1559224174829.jpg);">
                   <!-- Content -->
@@ -657,19 +582,19 @@
                       <h5 class="pink-text"><i class="fas fa-chart-pie"></i>Rabbii&reg; Communiity</h5>
                       <h3 class="card-title pt-2"><strong>Studying Is Important, Learning Is Importanter</strong></h3>
                       <p class="text-left">THE AVERAGE CHILD By Mike Buscemi</p>
-                        <p>I don’t cause teachers trouble;</p>
-                        <p>My grades have been okay</p>
-                        <p>I listen in my classes.......</p>
-                        <a class="btn btn-pink btn-rounded" target="_blank"
-                           href="https://rabbiitech.wordpress.com/2019/05/30/studying-is-important-learning-is-importanter/">
-                          <i class="fas fa-clone left"></i> Read More</a>
+                      <p>I don’t cause teachers trouble;</p>
+                      <p>My grades have been okay</p>
+                      <p>I listen in my classes.......</p>
+                      <a class="btn btn-pink btn-rounded" target="_blank"
+                         href="https://rabbiitech.wordpress.com/2019/05/30/studying-is-important-learning-is-importanter/">
+                        <i class="fas fa-clone left"></i> Read More</a>
                     </div>
                   </div>
                   <!-- Content -->
                 </div>
               </div>
               <!--/.Slides-->
-  
+
               <!--Controls-->
               <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -682,47 +607,47 @@
               <!--/.Controls-->
             </div>
             <!--/.Carousel Wrapper-->
-            </div>
           </div>
         </div>
-  
       </div>
-      <!--/.Call to action-->
-  
-      <hr class="my-4">
-  
-      <!-- Social icons -->
-      <div class="row" id="contact">
-        <div class="border-top col-12 py-3 ml-2">
-          <a href="#" data-toggle="modal" data-target="#modalRelatedContent">
-            <i class="fas fa-phone fa-2x mr-4 mr-lg-5 text-torquise"></i>
-          </a>
-          <a data-toggle="modal" data-target="#modalAbandonedCart">
-            <i class="fas fa-envelope fa-2x mr-4 mr-lg-5 text-torquise"></i>
-          </a>
-          <a href="https://www.facebook.com/rabbiitech/" target="_blank">
-            <i class="fab fa-facebook-f fa-2x mr-4 mr-lg-5 text-torquise"></i>
-          </a>
-          <a href="https://twitter.com/RabbiiTech" target="_blank">
-            <i class="fab fa-twitter fa-2x mr-4 mr-lg-5 text-torquise"></i>
-          </a>
-          <a href="https://www.linkedin.com/company/Rabbii-technology-innovations-ltd/" target="_blank">
-            <i class="fab fa-linkedin-in fa-2x mr-4 mr-lg-5 text-torquise"></i>
-          </a>
-          <a href="https://www.youtube.com/channel/UC5dpUzgKA46Iuh8r9ni1Syg" target="_blank">
-            <i class="fab fa-youtube fa-2x text-torquise"></i>
-          </a>
-        </div>
+
+    </div>
+    <!--/.Call to action-->
+
+    <hr class="my-4">
+
+    <!-- Social icons -->
+    <div class="row" id="contact">
+      <div class="border-top col-12 py-3 ml-2">
+        <a href="#" data-toggle="modal" data-target="#modalRelatedContent">
+          <i class="fas fa-phone fa-2x mr-4 mr-lg-5 text-torquise"></i>
+        </a>
+        <a data-toggle="modal" data-target="#modalAbandonedCart">
+          <i class="fas fa-envelope fa-2x mr-4 mr-lg-5 text-torquise"></i>
+        </a>
+        <a href="https://www.facebook.com/rabbiitech/" target="_blank">
+          <i class="fab fa-facebook-f fa-2x mr-4 mr-lg-5 text-torquise"></i>
+        </a>
+        <a href="https://twitter.com/RabbiiTech" target="_blank">
+          <i class="fab fa-twitter fa-2x mr-4 mr-lg-5 text-torquise"></i>
+        </a>
+        <a href="https://www.linkedin.com/company/Rabbii-technology-innovations-ltd/" target="_blank">
+          <i class="fab fa-linkedin-in fa-2x mr-4 mr-lg-5 text-torquise"></i>
+        </a>
+        <a href="https://www.youtube.com/channel/UC5dpUzgKA46Iuh8r9ni1Syg" target="_blank">
+          <i class="fab fa-youtube fa-2x text-torquise"></i>
+        </a>
       </div>
-      <!-- Social icons -->
-  
-      <!--Copyright-->
-      <div class="footer-copyright py-3 bg-blue col-12">
-        © 2019 Copyright:
-        <a href="#">Rabbii Technology
-          Solutions&reg; </a>
-      </div>
-      <!--/.Copyright-->
+    </div>
+    <!-- Social icons -->
+
+    <!--Copyright-->
+    <div class="footer-copyright py-3 bg-blue col-12">
+      © 2019 Copyright:
+      <a href="#">Rabbii Technology
+        Solutions&reg; </a>
+    </div>
+    <!--/.Copyright-->
 
   </footer>
   <!--/.Footer-->
@@ -741,55 +666,9 @@
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="mdb/js/mdb.min.js"></script>
   <!-- Initializations -->
-  <script type="text/javascript">
-    // Animations initialization
-    new WOW().init();
-
-    $('.nav-link').on('click',function() {
-      $('.navbar-collapse').collapse('hide');
-    });
-
-  $(function() {
-    $(document).click(function (event) {
-      $('.navbar-collapse').collapse('hide');
-    });
-  });
-
-  </script>
-
+  <script src="js/animation.js"></script>
   <!-- Time Counter -->
-  <script type="text/javascript">
-    // Set the date we're counting down to
-    var countDownDate = new Date('2019-07-01T10:00:00');
-    countDownDate.setDate(countDownDate.getDate());
-
-    // Update the count down every 1 second
-    var x = setInterval(function () {
-
-      // Get todays date and time
-      var now = new Date().getTime();
-
-      // Find the distance between now an the count down date
-      var distance = countDownDate - now;
-
-      // Time calculations for days, hours, minutes and seconds
-      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-      // Display the result in the element with id="demo"
-      document.getElementById("time-counter").innerHTML = days + "d " + hours + "h " +
-        minutes + "m " + seconds + "s ";
-
-      // If the count down is finished, write some text
-      if (distance < 0) {
-        clearInterval(x);
-        document.getElementById("time-counter").innerHTML = "EXPIRED";
-      }
-    }, 1000);
-
-  </script>
+  <script src="js/countdown.js"></script>
 </body>
 
 </html>

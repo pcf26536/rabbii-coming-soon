@@ -1,0 +1,82 @@
+ html,
+ body,
+ header,
+ .view {
+   height: 100%;
+ }
+
+ @media (max-width: 559px) {
+
+   html,
+   body,
+   header,
+   .view {
+     height: 1000px;
+   }
+ }
+
+ @media (min-width: 560px) and (max-width: 740px) {
+
+   html,
+   body,
+   header,
+   .view {
+     height: 700px;
+   }
+ }
+
+ @media (min-width: 800px) and (max-width: 850px) {
+
+   html,
+   body,
+   header,
+   .view {
+     height: 600px;
+   }
+ }
+
+ @media (min-width: 800px) and (max-width: 850px) {
+   .navbar:not(.top-nav-collapse) {
+     background: #1C2331 !important;
+   }
+ }
+
+ .scroll {
+   height: 550px;
+   overflow-y: scroll;
+ }
+
+ .text-purple {
+   color: #f442f1;
+ }
+
+ .text-torquise {
+   color: #30fbff !important;
+ }
+
+ .logo-img {
+   background-repeat: no-repeat;
+   height: 37px;
+ }
+
+ ul li.h3-responsive {
+   list-style-image: url("images/favicon/favicon-32x32.png");
+ }
+
+ .video-intro {
+   position: fixed;
+   right: 0;
+   bottom: 0;
+   min-width: 100%;
+   min-height: 100%;
+ }
+
+ .bg-blue {
+   background-color: #1C2331;
+ }
+
+ @media only screen and (max-width: 600px) {
+   body {
+     width: 93%;
+   }
+ }
