@@ -23,591 +23,660 @@
   <link href="mdb/css/mdb.min.css" rel="stylesheet">
   <!-- Your custom styles (optional) -->
   <link href="css/style.css" rel="stylesheet">
-  <link href="css/main.css">
+  <link href="css/main.css" rel="stylesheet">
 </head>
 
 <body>
 
   <!-- Navbar -->
- <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
-   <div class="container">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+    <v class="container">
+      <!-- Brand -->
+      <a class="navbar-brand" href="#">
+        <img src="images/logo-svg.svg" alt="rabbii-logo" class="logo-img">
+      </a>
 
-     <!-- Brand -->
-     <a class="navbar-brand" href="#">
-       <img src="images/logo-svg.svg" alt="rabbii-logo">
-     </a>
+      <!-- Collapse -->
+      <button class="navbar-toggler text-torquise" type="button" data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon text-torquise"></span>
+      </button>
 
-     <!-- Collapse -->
-     <button class="navbar-toggler text-torquise" type="button" data-toggle="collapse"
-             data-target="#navbarSupportedContent"
-             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-       <span class="navbar-toggler-icon text-torquise"></span>
-     </button>
+      <!-- Links -->
+      <div class="collapse navbar-collapse text-torquise" id="navbarSupportedContent">
 
-     <!-- Links -->
-     <div class="collapse navbar-collapse text-torquise" id="navbarSupportedContent">
+        <!-- Left -->
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link text-torquise" href="#about-us">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-torquise" href="#contact">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-torquise" href="#faqs">FAQs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-torquise" href="#blogs">Blogs</a>
+          </li>
+        </ul>
 
-       <!-- Left -->
-       <ul class="navbar-nav mr-auto">
-         <li class="nav-item">
-           <a class="nav-link text-torquise" href="#about-us">About Us</a>
-         </li>
-         <li class="nav-item">
-           <a class="nav-link text-torquise" href="#contact">Contact Us</a>
-         </li>
-         <li class="nav-item">
-           <a class="nav-link text-torquise" href="#faqs">FAQs</a>
-         </li>
-         <li class="nav-item">
-           <a class="nav-link text-torquise" href="#blogs">Blogs</a>
-         </li>
-       </ul>
-
-       <!-- Right -->
-       <ul class="navbar-nav nav-flex-icons">
-         <li class="nav-item mr-2">
-           <a data-toggle="modal" data-target="#modalRelatedContent"
-              class="nav-link border border-info rounded text-torquise">
-             <i class="fas fa-phone"></i>
-           </a>
-         </li>
-         <li class="nav-item mr-2">
-           <a data-toggle="modal" data-target="#modalAbandonedCart"
-              class="nav-link border border-info rounded text-torquise">
-             <i class="fas fa-envelope"></i>
-           </a>
-         </li>
-         <li class="nav-item mr-2">
-           <a href="https://www.facebook.com/rabbiitech/"
-              class="nav-link border border-info rounded text-torquise" target="_blank">
-             <i class="fab fa-facebook-f"></i>
-           </a>
-         </li>
-         <li class="nav-item mr-2">
-           <a href="https://twitter.com/RabbiiTech"
-              class="nav-link border border-info rounded text-torquise" target="_blank">
-             <i class="fab fa-twitter"></i>
-           </a>
-         </li>
-         <li class="nav-item mr-2">
-           <a href="https://www.linkedin.com/company/rabbii-technology-innovations-ltd/"
-              class="nav-link border border-info rounded text-torquise"
-              target="_blank">
-             <i class="fab fa-linkedin-in"></i>
-           </a>
-         </li>
-         <li class="nav-item">
-           <a href="https://www.youtube.com/channel/UC5dpUzgKA46Iuh8r9ni1Syg"
-              class="nav-link border border-info rounded text-torquise"
-              target="_blank">
-             <i class="fab fa-youtube"></i>
-           </a>
-         </li>
-       </ul>
-
-     </div>
-
-     </a>
- </nav>
-
+        <!-- Right -->
+        <ul class="navbar-nav nav-flex-icons">
+          <li class="nav-item mr-2">
+            <a data-toggle="modal" data-target="#modalRelatedContent"
+               class="nav-link border border-info rounded text-torquise">
+              <i class="fas fa-phone"></i>
+            </a>
+          </li>
+          <li class="nav-item mr-2">
+            <a data-toggle="modal" data-target="#modalAbandonedCart"
+               class="nav-link border border-info rounded text-torquise">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </li>
+          <li class="nav-item mr-2">
+            <a href="https://www.facebook.com/rabbiitech/"
+               class="nav-link border border-info rounded text-torquise" target="_blank">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </li>
+          <li class="nav-item mr-2">
+            <a href="https://twitter.com/RabbiiTech"
+               class="nav-link border border-info rounded text-torquise" target="_blank">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li class="nav-item mr-2">
+            <a href="https://www.linkedin.com/company/rabbii-technology-innovations-ltd/"
+               class="nav-link border border-info rounded text-torquise"
+               target="_blank">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="https://www.youtube.com/channel/UC5dpUzgKA46Iuh8r9ni1Syg"
+               class="nav-link border border-info rounded text-torquise"
+               target="_blank">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      </a>
+  </nav>
   <!-- Navbar -->
+  <!-- Mask & flexbox options-->
+  <!-- Content -->
+  <div class="row mt-5 pt-5 wow fadeIn d-flex justify-content-center align-items-center col-md-12">
 
-  <!-- Full Page Intro -->
-  <div>
-    <!-- Mask & flexbox options-->
+    <div class="text-center text-purple col-lg-4 mb-5 ml-5 ml-lg-0 ml-md-3">
+      <h1 class="h2-responsive mb-4">
+        <strong>Official TeeCha&trade; Launch in</strong>
+      </h1>
+      <!-- Time Counter -->
+      <p id="time-counter" class="border border-info my-4"></p>
+    </div>
+  </div>
 
-      <!-- Content -->
-      <div class="row mt-5 pt-5 wow fadeIn d-flex justify-content-center align-items-center col-md-12">
+  <div id="about-us" class="container">
+    <div class="row text-center mb-5 wow fadeIn m-auto">
+      <div class="col-11 m-auto bg-blue border">
+        <h2 class="text-center text-torquise py-3">About Us</h2>
+        <div class="text-purple mx-4 p-3">
+          <div class="h3-responsive">Our Mission</div>
+          <p>-----------</p>
+          <p class="font-weight-bold mb-5">To support people of all ages through use of
+            technology to acquire
+            and apply knowledge; either for career, academic progress, or their talents, hobbies and
+            interests, anywhere they are and at a time of their convenience. </p>
 
-        <div class="text-center text-purple col-lg-4 mb-5 ml-5 ml-lg-0 ml-md-3">
-          <h1 class="h2-responsive mb-4">
-            <strong>Official TeeCha&trade; Launch in</strong>
-          </h1>
-          <!-- Time Counter -->
-          <p id="time-counter" class="border border-info my-4"></p>
+          <div class="h3-responsive mt-5">Our Vision</div>
+          <p>-----------</p>
+          <p class="font-weight-bold">To see education transform the society by empowering them to achieve their
+            goals and
+            dreams.</p>
         </div>
-        <!-- Breakpoint -->
-        <div class="col-12"> </div>
+      </div>
+    </div>
+  </div>
 
-        <div class="client-div col-lg-5 mb-5 text-torquise border border-secondary p-3 bg-blue ml-5 ml-lg-auto ml-md-4">
-          <h4 class="mb-3">
-            <strong>Hello, are you looking to improve your child’s performance?</strong>
-          </h4>
+  <!--CLient and tutor registration form card links-->
+  <div class="container my-5">
+    <div class="row">
+      <div class="d-flex align-items-center">
+        <div class="col-sm-6">
+          <div
+               class="client-div mb-5 text-torquise border border-secondary p-3 bg-blue ml-5 ml-lg-auto ml-md-4">
+            <h4 class="mb-3">
+              <strong>Hello, are you looking to improve your child’s performance?</strong>
+            </h4>
 
-          <h4 class="mb-4">
-            <strong>How about you get them some professional, affordable one on one mentorship?</strong>
-          </h4>
+            <h4 class="mb-4">
+              <strong>How about you get them some professional, affordable one on one mentorship?</strong>
+            </h4>
 
-          <h4 class="mb-2">
-            <strong> Rabbii&reg; TeeCha services has you covered, by linking your child with the most
-              qualified, and convenient tutor available.</strong>
-          </h4>
+            <h4 class="mb-2">
+              <strong> Rabbii&reg; TeeCha services has you covered, by linking your child with the most
+                qualified, and convenient tutor available.</strong>
+            </h4>
 
-          <h4 class="mb-2">
-            <strong>Just click on the CLIENT tab and your Child’s performance will never be the same again. </strong>
-          </h4>
+            <h4 class="mb-2">
+              <strong>Just click on the CLIENT tab and your Child’s performance will never be the same again. </strong>
+            </h4>
 
-          <a href="https://forms.gle/y7KTkMDtYCtAywDu6"
-             class="btn btn-purple btn-lg btn-rounded">Client
-            <i class="fas fa-address-card ml-2"></i>
-          </a>
+            <a href="https://forms.gle/y7KTkMDtYCtAywDu6"
+               class="btn btn-purple btn-lg btn-rounded">Client
+              <i class="fas fa-address-card ml-2"></i>
+            </a>
+          </div>
         </div>
+        <!--Tutor card and link -->
+        <div class="col-sm-6">
+          <div
+               class="tutor-div mb-5 ml-5 text-torquise border border-secondary p-3 bg-blue ml-4 ml-lg-auto ml-md-4">
+            <h4 class="mb-4">
+              <strong>Or are you looking for some a job with flexible timing? Additionaly are you looking for
+                a means to increase your income?</strong>
+            </h4>
 
-        <div>
-             class="tutor-div col-lg-5 mb-5 ml-5 text-torquise border border-secondary p-3 bg-blue ml-4 ml-lg-auto ml-md-4">
-          <h4 class="mb-4">
-            <strong>Or are you looking for some a job with flexible timing? Additionaly are you looking for
-              a means to increase your income?</strong>
-          </h4>
+            <h4 class="mb-4">
+              <strong>If you are a graduate or are a campus student or a qualified teacher and you
+                are great in a certain subject or skill, register as a tutor in Rabbii&reg;. </strong>
+            </h4>
 
-          <h4 class="mb-4">
-            <strong>If you are a graduate or are a campus student or a qualified teacher and you
-              are great in a certain subject or skill, register as a tutor in Rabbii&reg;. </strong>
-          </h4>
+            <h4 class="mb-2"><strong>
+                By clicking on the TUTOR tab and get to work for an amazing company as well as help
+                others with your knowledge</strong>
+            </h4>
 
-          <h4 class="mb-2"><strong>
-              By clicking on the TUTOR tab and get to work for an amazing company as well as help
-              others with your knowledge</strong>
-          </h4>
-
-          <a class="btn btn-purple btn-lg btn-rounded" data-toggle="modal" data-target="#modalCoupon">Tutor
-            <i class="fas fa-chalkboard-teacher ml-2"></i>
-          </a>
+            <a class="btn btn-purple btn-lg btn-rounded" data-toggle="modal" data-target="#modalCoupon">Tutor
+              <i class="fas fa-chalkboard-teacher ml-2"></i>
+            </a>
+          </div>
         </div>
+        <!--/Tutor card and link -->
+      </div>
+    </div>
+  </div>
+  <!--/CLient and tutor registration form card links-->
 
-        <div class="col-12 col-lg-8 col-md-11 mt-5 ml-4 ml-lg-0 ml-md-0">
-
-          <p class="h3 text-center mb-4 text-torquise">Tutor Advertisement</p>
+  <div class="container my-5">
+    <p class="h3 text-center mb-4 text-torquise">Tutor Advertisement</p>
+    <div class="row">
+      <div class="col"></div>
+      <div class="col-8 mt-5 ml-4 ml-lg-0 ml-md-0">
+        <div class="mx-auto d-block">
           <div class="embed-responsive embed-responsive-16by9 border border-secondary p-5 bg-blue">
             <iframe class="embed-responsive-item"
                     src="https://www.youtube.com/embed/aHA_UjXVQTM?version=3&loop=1&playlist=aHA_UjXVQTM"
                     allowfullscreen></iframe>
           </div>
         </div>
-
       </div>
-      <!-- Content -->
-
+      <div class="col"></div>
     </div>
-    <!-- Mask & flexbox options-->
-
-    <!-- Modal: Phone Numbers-->
-    <div class="modal fade right" id="modalRelatedContent" tabindex="-1" role="dialog"
-         aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="true">
-      <div class="modal-dialog modal-side modal-bottom-right modal-notify modal-success"
-           role="document">
-        <!--Content-->
-        <div class="modal-content">
-          <!--Header-->
-          <div class="modal-header">
-            <p class="heading h2-responsive text-center">Phone Contacts</p>
-
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true" class="white-text">&times;</span>
-            </button>
-          </div>
-
-          <!--Body-->
-          <div class="modal-body">
-
-            <div class="row">
-              <div class="col-6 mb-3">
-                <img src="images/safari-com-logo.png"
-                     class="img-fluid" alt="">
-              </div>
-
-              <div class="col-6 mb-3">
-                <img src="images/Telkom-Kenya-Logo.png"
-                     class="img-fluid" alt="">
-              </div>
-
-              <div class="col-6">
-                <p class="h4-responsive text-success">0798 884 419</p>
-              </div>
-
-              <div class="col-6">
-                <p class="h4-responsive text-info">0772 915 361</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!--/.Content-->
-      </div>
-    </div>
-    <!-- Modal: modalAbandonedCart-->
-
-    <!-- Modal: Mail-->
-    <div class="modal fade right" id="modalAbandonedCart" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-         aria-hidden="true" data-backdrop="true">
-      <div class="modal-dialog modal-side modal-bottom-left modal-notify modal-info" role="document">
-        <!--Content-->
-        <div class="modal-content">
-          <!--Header-->
-          <div class="modal-header">
-            <p class="heading font-weight-bold">Mail Us At
-            </p>
-
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true" class="white-text">&times;</span>
-            </button>
-          </div>
-
-          <!--Body-->
-          <div class="modal-body font-weight-bold text-secondary">
-
-            <div class="row">
-              <div class="col-2">
-                <p class="text-center"><i class="fas fa-envelope fa-2x"></i></p>
-              </div>
-
-              <div class="col-9">
-                <p class="pt-1"><a href="mailto:info@rabbii.co.ke" target="_blank">
-                    info@rabbii.co.ke</a> - Enquires</p>
-              </div>
-
-              <div class="col-2">
-                <p class="text-center"><i class="fas fa-envelope fa-2x"></i></p>
-              </div>
-
-              <div class="col-9">
-                <p class="pt-1"><a href="mailto:ceo@rabbii.co.ke" target="_blank">
-                    ceo@rabbii.co.ke</a> - C.E.O</p>
-              </div>
-
-              <div class="col-2">
-                <p class="text-center"><i class="fas fa-envelope fa-2x"></i></p>
-              </div>
-
-              <div class="col-9">
-                <p class="pt-1"><a href="mailto:hr@rabbii.co.ke" target="_blank">
-                    hr@rabbii.co.ke</a> - H.R Department</p>
-              </div>
-
-              <div class="col-2">
-                <p class="text-center"><i class="fas fa-envelope fa-2x"></i></p>
-              </div>
-
-              <div class="col-9">
-                <p class="pt-1"><a href="mailto:cit@rabbii.co.ke" target="_blank">
-                    cit@rabbii.co.ke</a> - I.T Department</p>
-              </div>
-            </div>
-          </div>
-
-        </div>
-        <!--/.Content-->
-      </div>
-    </div>
-    <!-- Modal: Mail-->
-
-    <!-- tutor Modal -->
-    <div class="modal fade top" tabindex="-1" role="dialog"
-         aria-hidden="true" data-backdrop="true" id="modalCoupon" aria-labelledby="modalCoupon">
-      <div class="modal-dialog modal-frame modal-top modal-notify modal-info" role="document">
-        <!--Content-->
-        <div class="modal-content">
-          <!--Body-->
-          <div class="modal-body">
-            <div class="row d-flex justify-content-center align-items-center">
-
-              <p class="pt-3 mx-4"><strong>Register as an</strong></p>
-
-              <a type="button" class="btn btn-purple btn-rounded">
-                TSC Tutor
-              </a>
-              <p class="pt-3 mx-4">or</p>
-              <a type="button" class="btn btn-info btn-rounded" href="https://forms.gle/LerPUYib9EJ3yMxr7">
-                Non-TSC Tutor
-              </a>
-            </div>
-          </div>
-        </div>
-        <!--/.Content-->
-      </div>
-    </div>
-    <!-- tutor Modal -->
 
   </div>
+  <!-- Content -->
+  <!-- Mask & flexbox options-->
+
+  <!-- Modal: Phone Numbers-->
+  <div class="modal fade right" id="modalRelatedContent" tabindex="-1" role="dialog"
+       aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="true">
+    <div class="modal-dialog modal-side modal-bottom-right modal-notify modal-success"
+         role="document">
+      <!--Content-->
+      <div class="modal-content">
+        <!--Header-->
+        <div class="modal-header">
+          <p class="heading h2-responsive text-center">Phone Contacts</p>
+
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true" class="white-text">&times;</span>
+          </button>
+        </div>
+
+        <!--Body-->
+        <div class="modal-body">
+
+          <div class="row">
+            <div class="col-6">
+              <img src="images/safari-com-logo.png"
+                   class="img-fluid" alt="">
+            </div>
+
+            <div class="col-6">
+              <img src="images/Telkom-Kenya-Logo.png"
+                   class="img-fluid" alt="">
+            </div>
+
+            <div class="col-6">
+              <p class="h4-responsive text-success">0798 884 419</p>
+            </div>
+
+            <div class="col-6">
+              <p class="h4-responsive text-info">0772 915 361</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--/.Content-->
+    </div>
+  </div>
+  <!-- Modal: modalAbandonedCart-->
+
+  <!-- Modal: Mail-->
+  <div class="modal fade right" id="modalAbandonedCart" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+       aria-hidden="true" data-backdrop="true">
+    <div class="modal-dialog modal-side modal-bottom-left modal-notify modal-info" role="document">
+      <!--Content-->
+      <div class="modal-content">
+        <!--Header-->
+        <div class="modal-header">
+          <p class="heading font-weight-bold">Mail Us At
+          </p>
+
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true" class="white-text">&times;</span>
+          </button>
+        </div>
+
+        <!--Body-->
+        <div class="modal-body font-weight-bold text-secondary">
+
+          <div class="row">
+            <div class="col-2">
+              <p class="text-center"><i class="fas fa-envelope fa-2x"></i></p>
+            </div>
+
+            <div class="col-9">
+              <p class="pt-1"><a href="mailto:info@rabbii.co.ke" target="_blank">
+                  info@rabbii.co.ke</a> - Enquires</p>
+            </div>
+
+            <div class="col-2">
+              <p class="text-center"><i class="fas fa-envelope fa-2x"></i></p>
+            </div>
+
+            <div class="col-9">
+              <p class="pt-1"><a href="mailto:ceo@rabbii.co.ke" target="_blank">
+                  ceo@rabbii.co.ke</a> - C.E.O</p>
+            </div>
+
+            <div class="col-2">
+              <p class="text-center"><i class="fas fa-envelope fa-2x"></i></p>
+            </div>
+
+            <div class="col-9">
+              <p class="pt-1"><a href="mailto:hr@rabbii.co.ke" target="_blank">
+                  hr@rabbii.co.ke</a> - H.R Department</p>
+            </div>
+
+            <div class="col-2">
+              <p class="text-center"><i class="fas fa-envelope fa-2x"></i></p>
+            </div>
+
+            <div class="col-9">
+              <p class="pt-1"><a href="mailto:cit@rabbii.co.ke" target="_blank">
+                  cit@rabbii.co.ke</a> - I.T Department</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!--/.Content-->
+    </div>
+  </div>
+  <!-- Modal: Mail-->
+
+  <!-- tutor Modal -->
+  <div class="modal fade top" tabindex="-1" role="dialog"
+       aria-hidden="true" data-backdrop="true" id="modalCoupon" aria-labelledby="modalCoupon">
+    <div class="modal-dialog modal-frame modal-top modal-notify modal-info" role="document">
+      <!--Content-->
+      <div class="modal-content">
+        <!--Body-->
+        <div class="modal-body">
+          <div class="row d-flex justify-content-center align-items-center">
+
+            <p class="pt-3 mx-4"><strong>Register as an</strong></p>
+
+            <a type="button" class="btn btn-purple btn-rounded">
+              TSC Tutor
+            </a>
+            <p class="pt-3 mx-4">or</p>
+            <a type="button" class="btn btn-info btn-rounded" href="https://forms.gle/LerPUYib9EJ3yMxr7">
+              Non-TSC Tutor
+            </a>
+          </div>
+        </div>
+      </div>
+      <!--/.Content-->
+    </div>
+  </div>
+  <!-- tutor Modal -->
+
   <!-- Full Page Intro -->
 
   <hr class="my-4">
 
+  <div class="container">
+    <h3 class="text-center">Our Services</h3>
+
+    <p class="font-weight-bold text-center">We provide resources and platforms to learners that will help them
+      achieve their goals and dreams.</p>
+
+    <div class="container">
+      <div class="row my-5">
+        <div class="d-flex align-items-center">
+          <div class="col-sm-4">
+            <img src="images/tutor.jpg" class="img-fluid">
+          </div>
+          <div class="col-sm-8">
+            <h4>Teecha</h4>
+            <p>
+              This is a software application that selects the most qualified and convenient tutor available for a
+              particular student depending on their area of need. It provides tool for planning and conducting an
+              effective session to the expert and allows the client to monitor the process. The RABBI admin is
+              ultimately
+              in charge of the tutor and can change him/her incase need be or as recommended by the client to RABBII.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row my-5">
+        <div class="d-flex align-items-center">
+          <div class="col-sm-8">
+            <h4>LYBU</h4>
+            <p>
+              This is a software application that gives access to students to a vast resource of books and papers
+              uploaded
+              by our partners. The client acquires an online library card at an affordable price which is renewed
+              monthly
+              and they select the package they are interested in and thus gain access to the resources.
+            </p>
+          </div>
+          <div class="col-sm-4">
+            <img src="images/library2.png" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <div class="row my-5">
+        <div class="d-flex align-items-center">
+          <div class="col-sm-4">
+            <img src="images/chatroom.jpg" class="img-fluid">
+          </div>
+          <div class="col-sm-8">
+            <h4>TUKONEKT</h4>
+            <p>
+              This is a software application that allows learners to interact with professionals or experts who are
+              online
+              through our platform. Any qualified person can act as an expert and answer the areas of concern that
+              learners all across the country have.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Call to action-->
+  <div class="container my-4">
+    <div id="faqs">
+      <!-- <div class="navbar font-weight-bold d-none d-lg-block d-md-block col-1 p-2">
+          <a class="navbar-brand m-auto w-100 px-3 border-bottom border-primary text-torquise">Category</a>
+          <nav class="nav nav-pills flex-column">
+            <a class="nav-link text-torquise" href="#teecha-faqs">TeeCha</a>
+            <nav class="nav nav-pills flex-column">
+              <a class="nav-link ml-3 my-1 text-torquise" href="#teecha-faqs-a">A. Client</a>
+              <a class="nav-link ml-3 my-1 text-torquise" href="#teecha-faqs-b">B. Tutor</a>
+            </nav>
+          </nav>
+        </div> -->
+      <!-- <div class="col-10 m-auto bg-blue border"> -->
+      <h2 class="my-2 text-purple text-center">FAQs</h2>
+      <div class="">
+        <h4 id="teecha-faqs" class="text-purmy-2 text-purple">TeeCha</h4>
+        <h5 id="teecha-faqs-a" class="text-center text-purple">A. Client</h5>
+        <p class="text-center text-purple">-------------------------</p>
+        <ol class="text-torquise mb-4 font-md">
+          <li class="font-weight-bold">What is TeeCha?</li>
+          <p>It is a service where a student is linked up with a tutor tailored to meet
+            the specific academic needs of the student.</p>
+
+          <li class="font-weight-bold">Who will teach?</li>
+          <p>Only teachers and qualified tutors are allowed to teach your child. All tutors and
+            teachers are vetted by Rabbii&reg; and deemed fit to teach a student.
+            Follow up is also done during the tutoring period to ensure objectives are being met.
+          </p>
+
+          <li class="font-weight-bold">Can I trust my tutor:</li>
+          <ol>
+            <li class="font-weight-bold">In terms of conduct</li>
+            <p>We as a company believe in the values we have and the code of conducts
+              set. Our employees also have to live by the values we hold and abide by
+              the code of conduct set for all of us. Therefore every tutor working in
+              Rabbii&reg; shares the same values and thus can be trusted.</p>
+
+            <li class="font-weight-bold">In terms of delivery</li>
+            <p>Every tutor taken by Rabbii&reg; is the best in their respective fields.
+              Coupling this with systems set in place to ensure that a student
+              constantly improves assures of a positive result from the tutor and in
+              the student.</p>
+          </ol>
+
+          <li class="font-weight-bold">Where will the lessons be?</li>
+          <p>Lessons are done where the client specifies them to be, mainly at the client’s premise.</p>
+
+          <li class="font-weight-bold">Can a female student have a male tutor or Male student with a female tutor
+          </li>
+          <p>Only female tutors are allowed to teach female students and male tutors are
+            allowed to teach only male students.</p>
+
+          <li class="font-weight-bold">When can I get a tutor?</li>
+          <p>A tutor is made available to you within a day of the client requesting. Request are
+            made through <a>the following link</a> where your details and
+            those of the
+            student are captured.
+          </p>
+
+          <li class="font-weight-bold">What if I’m dissatisfied with my tutor</li>
+          <p>You can contact Rabbii&reg; at any time and your concerns will be addressed as
+            soon as possible.</p>
+        </ol>
+
+        <hr class="my-4">
+
+        <h5 id="teecha-faqs-b" class="text-center mt-4 text-purple">B. Tutor</h5>
+        <p class="text-center text-purple">-------------------------</p>
+        <ol class="text-torquise mb-2 font-md">
+          <li class="font-weight-bold">Who can teach?</li>
+          <p>Every campus student is allowed to register with Rabbii through the link.
+            Your suitability to a student will be matched with what the student desires to be taught.
+            This include the subjects you want to teach, your mastery of the subject and your ability to teach a
+            student.
+          </p>
+          <p>After this are verified then you are placed to teach the student.</p>
+
+          <li class="font-weight-bold">Does tutoring interfere with my schedule?</li>
+          <p>Once a tutor with Rabbii&reg; then attendance of classes will be of high
+            priority. However the time set for classes is agreed between the tutor
+            and the client for the convenience of both of them.</p>
+
+          <li class="font-weight-bold">Do I get to choose the subjects I teach?</li>
+          <p>When you fill in your details as a tutor you will get the chance to specify
+            the subjects you will want to teach.</p>
+
+          <li class="font-weight-bold">Can I teach more than one subject?</li>
+          <p>You can teach more than one subject as long as you have a mastery in the subjects you
+            want to teach. You will specify the subjects you want to teach as you sign up. But to
+            every student you are a placed you are allowed a maximum of two subjects.
+          </p>
+
+          <li class="font-weight-bold">How do I plan for classes?</li>
+          <p>The total number of session you will attend are communicated to you by Rabbii&reg;.
+            Days in which you go for the classes and time is planned at your convenience and
+            the convenience of the student/client.</p>
+
+          <li class="font-weight-bold">Where do I get resources to teach i.e. books and past papers?</li>
+          <p>As we begin you will be required to look for books from where you will prepare for
+            your classes. But as we proceed all this material will be made available to you online.</p>
+
+          <li class="font-weight-bold">How long does a session last?</li>
+          <p>Each session lasts a minimum of 2 and a half hours.</p>
+
+          <li class="font-weight-bold">What if I only want to teach a high school or a Primary school
+            student?</li>
+          <p>Your preference is considered.</p>
+
+          <li class="font-weight-bold">Which skills can I teach?</li>
+          <p>Skills are in several Categories. This include Music, Foreign languages, Professional
+            software, Art, Fashion and Design among others. In music there is instruments, vocals and DJ.
+            Under Instruments there is the Guitar, violin, Keyboard etc. You get to choose the skill to teach from
+            this category.
+            <a target="_blank">(To view the full category visit our blog) here</a>
+          </p>
+
+          <li class="font-weight-bold">How much do I get paid?</li>
+          <p>We believe in the value that you impart in the student. Every session costs sh. 700.
+            The terms of payment are stipulated under ‘terms of service’ a document you agree to
+            before beginning your sessions as a tutor with Rabbii&reg;</p>
+
+          <li class="font-weight-bold">When will I get a client?</li>
+          <p>You are contacted as soon as a student matching your specifications is found.</p>
+
+        </ol>
+      </div>
+    </div>
+  </div>
+
+  <hr class="my-4">
+
+  <div class="container my-5">
+    <div id="brochures" class="carousel slide" data-ride="carousel">
+
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#brochures" data-slide-to="0" class="active"></li>
+        <li data-target="#brochures" data-slide-to="1"></li>
+        <li data-target="#brochures" data-slide-to="2"></li>
+        <li data-target="#brochures" data-slide-to="3"></li>
+        <li data-target="#brochures" data-slide-to="4"></li>
+      </ul>
+
+      <!-- The slideshow -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/brochures/Add a heading.jpg" class="mx-auto d-block" alt="">
+        </div>
+        <div class="carousel-item">
+          <img src="images/brochures/Add a heading (2).jpg" class="mx-auto d-block" alt="">
+        </div>
+        <div class="carousel-item">
+          <img src="images/brochures/Add a heading (5).png" class="mx-auto d-block" alt="">
+        </div>
+        <div class="carousel-item">
+          <img src="images/brochures/Add a heading (6).png" class="mx-auto d-block" alt="">
+        </div>
+        <div class="carousel-item">
+          <img src="images/brochures/Add a heading (7).png" class="mx-auto d-block" alt="">
+        </div>
+
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#brochures" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#brochures" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </div>
+
+  <div id="blogs" class="container-fluid m-auto">
+    <div class="row mb-5 wow fadeIn">
+      <div class="border bg-blue col-10 p-5 m-auto">
+        <h2 class="text-left text-torquise pl-5 py-3">Blogs</h2>
+        <!--Carousel Wrapper-->
+        <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+          <!--Indicators-->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-2" data-slide-to="1"></li>
+          </ol>
+          <!--/.Indicators-->
+
+          <!--Slides-->
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active card card-image" style="background-image:
+                url(https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg);">
+              <!-- Content -->
+              <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
+                <div>
+                  <h5 class="pink-text"><i class="fas fa-chart-pie"></i>Rabbii&reg; Communiity</h5>
+                  <h3 class="card-title pt-2"><strong>Rabbii&reg; TeeCha&trade;</strong></h3>
+                  <p class="text-left">Who are we?</p>
+                  <p>Rabbii&reg; aims to bring a paradigm shift in the learning sector by
+                    providing technology solutions. We exist to add value
+                    <span class="d-none d-lg-block d-md-block">
+                      to the society through providing Educational support services. The
+                      company is managed by a vibrant and energetic team with different skills
+                      sets and abilities who</span><span class="d-none d-lg-block d-md-block">are on a big mission
+                      to support
+                      people of all ages acquire and apply knowledge</span><span
+                          class="d-none d-lg-block d-md-block"> either for career, academic progress
+                      or new knowledge and skills in their talents, hobbies and interests
+                      anywhere</span></p>
+                  <a class="btn btn-pink btn-rounded" target="_blank"
+                     href="https://rabbiitech.wordpress.com/2019/05/30/rabbii-teecha/">
+                    <i class="fas fa-clone left"></i> View Blog</a>
+                </div>
+              </div>
+              <!-- Content -->
+            </div>
+
+            <div class="carousel-item card card-image" style="background-image:
+                url(https://rabbiitech.files.wordpress.com/2019/05/lshenryford_09_2000-e1559224174829.jpg);">
+              <!-- Content -->
+              <div class="text-white  rgba-black-strong py-5 px-4">
+                <div>
+                  <h5 class="pink-text"><i class="fas fa-chart-pie"></i>Rabbii&reg; Communiity</h5>
+                  <h3 class="card-title pt-2"><strong>Studying Is Important, Learning Is Importanter</strong></h3>
+                  <p class="text-left">THE AVERAGE CHILD By Mike Buscemi</p>
+                  <p>I don’t cause teachers trouble;</p>
+                  <p>My grades have been okay</p>
+                  <p>I listen in my classes.......</p>
+                  <a class="btn btn-pink btn-rounded" target="_blank"
+                     href="https://rabbiitech.wordpress.com/2019/05/30/studying-is-important-learning-is-importanter/">
+                    <i class="fas fa-clone left"></i> Read More</a>
+                </div>
+              </div>
+              <!-- Content -->
+            </div>
+          </div>
+          <!--/.Slides-->
+
+          <!--Controls-->
+          <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+          <!--/.Controls-->
+        </div>
+        <!--/.Carousel Wrapper-->
+      </div>
+    </div>
+  </div>
+
   <!--Footer-->
   <footer class="page-footer text-center">
-
-    <!--Call to action-->
-    <div class="pt-4 mt-5">
-      <div id="faqs" class="">
-        <div class="row text-left mb-5 wow fadeIn">
-          <div class="navbar font-weight-bold d-none d-lg-block d-md-block col-1 p-2">
-            <a class="navbar-brand m-auto w-100 px-3 border-bottom border-primary text-torquise">Category</a>
-            <nav class="nav nav-pills flex-column">
-              <a class="nav-link text-torquise" href="#teecha-faqs">TeeCha</a>
-              <nav class="nav nav-pills flex-column">
-                <a class="nav-link ml-3 my-1 text-torquise" href="#teecha-faqs-a">A. Client</a>
-                <a class="nav-link ml-3 my-1 text-torquise" href="#teecha-faqs-b">B. Tutor</a>
-              </nav>
-            </nav>
-          </div>
-          <div class="col-10 m-auto bg-blue border">
-
-            <div class="d-flex justify-content-center my-2 text-purple">
-              <h2>FAQs</h2>
-            </div>
-            <div class="scroll p-4">
-              <h4 id="teecha-faqs" class="text-purple">TeeCha</h4>
-              <h5 id="teecha-faqs-a" class="text-center text-purple">A. Client</h5>
-              <p class="text-center text-purple">-------------------------</p>
-              <ol class="text-torquise mb-4 font-md">
-                <li class="font-weight-bold">What is TeeCha?</li>
-                <p>It is a service where a student is linked up with a tutor tailored to meet
-                  the specific academic needs of the student.</p>
-
-                <li class="font-weight-bold">Who will teach?</li>
-                <p>Only teachers and qualified tutors are allowed to teach your child. All tutors and
-                  teachers are vetted by Rabbii&reg; and deemed fit to teach a student.
-                  Follow up is also done during the tutoring period to ensure objectives are being met.
-                </p>
-
-                <li class="font-weight-bold">Can I trust my tutor:</li>
-                <ol>
-                  <li class="font-weight-bold">In terms of conduct</li>
-                  <p>We as a company believe in the values we have and the code of conducts
-                    set. Our employees also have to live by the values we hold and abide by
-                    the code of conduct set for all of us. Therefore every tutor working in
-                    Rabbii&reg; shares the same values and thus can be trusted.</p>
-
-                  <li class="font-weight-bold">In terms of delivery</li>
-                  <p>Every tutor taken by Rabbii&reg; is the best in their respective fields.
-                    Coupling this with systems set in place to ensure that a student
-                    constantly improves assures of a positive result from the tutor and in
-                    the student.</p>
-                </ol>
-
-                <li class="font-weight-bold">Where will the lessons be?</li>
-                <p>Lessons are done where the client specifies them to be, mainly at the client’s premise.</p>
-
-                <li class="font-weight-bold">Can a female student have a male tutor or Male student with a female tutor
-                </li>
-                <p>Only female tutors are allowed to teach female students and male tutors are
-                  allowed to teach only male students.</p>
-
-                <li class="font-weight-bold">When can I get a tutor?</li>
-                <p>A tutor is made available to you within a day of the client requesting. Request are
-                  made through <a>the following link</a> where your details and
-                  those of the
-                  student are captured.
-                </p>
-
-                <li class="font-weight-bold">What if I’m dissatisfied with my tutor</li>
-                <p>You can contact Rabbii&reg; at any time and your concerns will be addressed as
-                  soon as possible.</p>
-              </ol>
-              <hr class="my-4">
-              <h5 id="teecha-faqs-b" class="text-center mt-4 text-purple">B. Tutor</h5>
-              <p class="text-center text-purple">-------------------------</p>
-              <ol class="text-torquise mb-2 font-md">
-                <li class="font-weight-bold">Who can teach?</li>
-                <p>Every campus student is allowed to register with Rabbii through the link.
-                  Your suitability to a student will be matched with what the student desires to be taught.
-                  This include the subjects you want to teach, your mastery of the subject and your ability to teach a
-                  student.
-                </p>
-                <p>After this are verified then you are placed to teach the student.</p>
-
-                <li class="font-weight-bold">Does tutoring interfere with my schedule?</li>
-                <p>Once a tutor with Rabbii&reg; then attendance of classes will be of high
-                  priority. However the time set for classes is agreed between the tutor
-                  and the client for the convenience of both of them.</p>
-
-                <li class="font-weight-bold">Do I get to choose the subjects I teach?</li>
-                <p>When you fill in your details as a tutor you will get the chance to specify
-                  the subjects you will want to teach.</p>
-
-                <li class="font-weight-bold">Can I teach more than one subject?</li>
-                <p>You can teach more than one subject as long as you have a mastery in the subjects you
-                  want to teach. You will specify the subjects you want to teach as you sign up. But to
-                  every student you are a placed you are allowed a maximum of two subjects.
-                </p>
-
-                <li class="font-weight-bold">How do I plan for classes?</li>
-                <p>The total number of session you will attend are communicated to you by Rabbii&reg;.
-                  Days in which you go for the classes and time is planned at your convenience and
-                  the convenience of the student/client.</p>
-
-                <li class="font-weight-bold">Where do I get resources to teach i.e. books and past papers?</li>
-                <p>As we begin you will be required to look for books from where you will prepare for
-                  your classes. But as we proceed all this material will be made available to you online.</p>
-
-                <li class="font-weight-bold">How long does a session last?</li>
-                <p>Each session lasts a minimum of 2 and a half hours.</p>
-
-                <li class="font-weight-bold">What if I only want to teach a high school or a Primary school
-                  student?</li>
-                <p>Your preference is considered.</p>
-
-                <li class="font-weight-bold">Which skills can I teach?</li>
-                <p>Skills are in several Categories. This include Music, Foreign languages, Professional
-                  software, Art, Fashion and Design among others. In music there is instruments, vocals and DJ.
-                  Under Instruments there is the Guitar, violin, Keyboard etc. You get to choose the skill to teach from
-                  this category.
-                  <a target="_blank">(To view the full category visit our blog) here</a>
-                </p>
-
-                <li class="font-weight-bold">How much do I get paid?</li>
-                <p>We believe in the value that you impart in the student. Every session costs sh. 700.
-                  The terms of payment are stipulated under ‘terms of service’ a document you agree to
-                  before beginning your sessions as a tutor with Rabbii&reg;</p>
-
-                <li class="font-weight-bold">When will I get a client?</li>
-                <p>You are contacted as soon as a student matching your specifications is found.</p>
-
-              </ol>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <hr class="my-4">
-
-      <div id="about-us" class="">
-        <div class="row text-center mb-5 wow fadeIn m-auto">
-          <div class="col-11 m-auto bg-blue border">
-            <h2 class="text-left text-torquise pl-5 py-3">About Us</h2>
-            <div class="text-purple mx-4 p-3">
-              <div class="h3-responsive">Our Mission</div>
-              <p>-----------</p>
-              <p class="font-weight-bold mb-5">To support people of all ages through use of
-                technology to acquire
-                and apply knowledge; either for career, academic progress, or their talents, hobbies and
-                interests, anywhere they are and at a time of their convenience. </p>
-
-              <div class="h3-responsive mt-5">Our Vision</div>
-              <p>-----------</p>
-              <p class="font-weight-bold">To see education transform the society by empowering them to achieve their
-                goals and
-                dreams.</p>
-              <div class="h3-responsive mt-5">Our Services</div>
-              <p>-----------</p>
-              <p class="font-weight-bold">We provide resources and platforms to learners that will help them
-                achieve their goals and dreams.</p>
-              <p class="font-weight-bold mb-5">We do this from three fronts:</p>
-              <div class="text-left d-flex justify-content-center align-content-center">
-                <ul class="list-group col-10 text-torquise">
-                  <li class="h3-responsive pl-lg-5">TeeCha (official launch: 1/July/2019) </li>
-                  <p class="font-weight-bold mb-5">This is a application software that selects
-                    the most
-                    qualified and convenient tutor available for a particular student depending on their
-                    area of need. It provides tool for planning and conducting an effective session to
-                    the expert and allows the client to monitor the process. The Rabbii&reg; Admin is
-                    ultimately in charge of the tutor and can change him/her incase need be or as
-                    recommended by the client to Rabbii&reg;.</p>
-
-                  <li class="h3-responsive pl-lg-5">LyBu (official launch: 1/August/2019) </li>
-                  <p class="font-weight-bold mb-5">This is a application software that gives
-                    access to
-                    students to a vast resource of books and papers uploaded by our partners. The client
-                    acquires an online library card at an affordable price which is renewed monthly and
-                    they select the package they are interested in and thus gain access to the resources.</p>
-
-                  <li class="h3-responsive pl-lg-5">TuKonekt (official launch: 1/October/2019)</li>
-                  <p class="font-weight-bold mb-5">This is a application software that allows learners to
-                    interact with professionals or experts who are online through our platform. Any
-                    qualified person can act as an expert and answer the areas of concern that learners
-                    all across the country have.</p>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <hr class="my-4">
-
-      <div id="blogs" class="m-auto">
-        <div class="row mb-5 wow fadeIn">
-          <div class="border bg-blue col-10 p-5 m-auto">
-            <h2 class="text-left text-torquise pl-5 py-3">Blogs</h2>
-            <!--Carousel Wrapper-->
-            <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
-              <!--Indicators-->
-              <ol class="carousel-indicators">
-                <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-example-2" data-slide-to="1"></li>
-              </ol>
-              <!--/.Indicators-->
-
-              <!--Slides-->
-              <div class="carousel-inner" role="listbox">
-                <div class="carousel-item active card card-image" style="background-image:
-                url(https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg);">
-                  <!-- Content -->
-                  <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
-                    <div>
-                      <h5 class="pink-text"><i class="fas fa-chart-pie"></i>Rabbii&reg; Communiity</h5>
-                      <h3 class="card-title pt-2"><strong>Rabbii&reg; TeeCha&trade;</strong></h3>
-                      <p class="text-left">Who are we?</p>
-                      <p>Rabbii&reg; aims to bring a paradigm shift in the learning sector by
-                        providing technology solutions. We exist to add value
-                        <span class="d-none d-lg-block d-md-block">
-                          to the society through providing Educational support services. The
-                          company is managed by a vibrant and energetic team with different skills
-                          sets and abilities who</span><span class="d-none d-lg-block d-md-block">are on a big mission
-                          to support
-                          people of all ages acquire and apply knowledge</span><span
-                              class="d-none d-lg-block d-md-block"> either for career, academic progress
-                          or new knowledge and skills in their talents, hobbies and interests
-                          anywhere</span></p>
-                      <a class="btn btn-pink btn-rounded" target="_blank"
-                         href="https://rabbiitech.wordpress.com/2019/05/30/rabbii-teecha/">
-                        <i class="fas fa-clone left"></i> View Blog</a>
-                    </div>
-                  </div>
-                  <!-- Content -->
-                </div>
-
-                <div class="carousel-item card card-image" style="background-image:
-                url(https://rabbiitech.files.wordpress.com/2019/05/lshenryford_09_2000-e1559224174829.jpg);">
-                  <!-- Content -->
-                  <div class="text-white  rgba-black-strong py-5 px-4">
-                    <div>
-                      <h5 class="pink-text"><i class="fas fa-chart-pie"></i>Rabbii&reg; Communiity</h5>
-                      <h3 class="card-title pt-2"><strong>Studying Is Important, Learning Is Importanter</strong></h3>
-                      <p class="text-left">THE AVERAGE CHILD By Mike Buscemi</p>
-                      <p>I don’t cause teachers trouble;</p>
-                      <p>My grades have been okay</p>
-                      <p>I listen in my classes.......</p>
-                      <a class="btn btn-pink btn-rounded" target="_blank"
-                         href="https://rabbiitech.wordpress.com/2019/05/30/studying-is-important-learning-is-importanter/">
-                        <i class="fas fa-clone left"></i> Read More</a>
-                    </div>
-                  </div>
-                  <!-- Content -->
-                </div>
-              </div>
-              <!--/.Slides-->
-
-              <!--Controls-->
-              <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
-              <!--/.Controls-->
-            </div>
-            <!--/.Carousel Wrapper-->
-          </div>
-        </div>
-      </div>
-
-    </div>
-    <!--/.Call to action-->
-
-    <hr class="my-4">
-
     <!-- Social icons -->
     <div class="row" id="contact">
       <div class="border-top col-12 py-3 ml-2">

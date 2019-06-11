@@ -22,3 +22,7 @@ html {
 #time-counter {
   font-size: 3rem
 }
+
+.carousel-indicators .active {
+  background-color: #30fbff;
+}
