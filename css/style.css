@@ -1,9 +1,10 @@
 body {
   font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size: 1.2em;
 }
 
 .teecha-faqs {
-  max-height: 280px;
+  max-height: 650px;
 }
 
 .view,
