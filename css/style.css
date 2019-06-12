@@ -1,6 +1,15 @@
 body {
   font-family: "Comic Sans MS", "Comic Sans", cursive;
   font-size: 1.2em;
+  background-color: #1C2331;
+}
+
+.rabbii-blue {
+  color: #025492;
+}
+
+.rabbii-purple {
+  color: #893e8b;
 }
 
 .teecha-faqs {
