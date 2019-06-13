@@ -29,7 +29,7 @@
 <body>
 
   <!-- Navbar -->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
     <div class="container">
       <!-- Brand -->
       <a class="navbar-brand" href="#">
@@ -55,10 +55,10 @@
             <a class="nav-link text-torquise" href="#contact">Contact Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-torquise" href="#faqs">FAQs</a>
+            <a class="nav-link text-torquise" href="#faqs" id="faqs-link">FAQs</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-torquise" href="#blogs">Blogs</a>
+            <a class="nav-link text-torquise" href="#articles">Articles</a>
           </li>
         </ul>
 
@@ -126,13 +126,13 @@
 
     <span>
       <a href="https://forms.gle/y7KTkMDtYCtAywDu6"
-         class="btn btn-purple btn btn-rounded">Apply as Client
+         class="btn btn-purple btn btn-rounded">Get a Tutor
         <i class="fas fa-address-card ml-2"></i>
       </a>
     </span>
   </div>
 
-    <div class="container card mt-4 mx-auto">
+    <div class="container card mt-4 mx-auto border-info">
 
       <!-- Card image -->
       <div class="">
@@ -170,11 +170,13 @@
     </div>
 
   <!-- Our Services -->
-    <div class="container border my-5 py-5 bg-white card col-lg-9 col-11">
+    <div class="container border-secondary my-5 py-5 bg-white card col-lg-9 col-11">
       <div>
-        <h3 class="text-center">Our Services</h3>
+        <h3 class="text-center text-purple">Our Services</h3>
 
-        <p class="text-center">We provide resources and platforms to learners that will help them
+        <p class="text-center rabbii-purple">We provide resources and platforms to learners that will
+          help
+          them
           achieve their goals and dreams.</p>
 
         <div class="bg-white">
@@ -200,8 +202,8 @@
           <div class="row my-5">
             <div class="d-lg-flex align-items-center">
               <div class="col-lg-8 col-11">
-                <h4>LyBu&trade;  - Official Launch; 1 August 2019</h4>
-                <p class="font-weight-bold">
+                <h4 class="rabbii-blue">LyBu&trade;  - Official Launch; 1 August 2019</h4>
+                <p class="font-weight-bold rabbii-purple">
                   This is an application system that gives students access to a vast resource of
                   books and papers uploaded by our partners. The client acquires an online library
                   card at an affordable price which is renewed monthly and they select the package they
@@ -219,8 +221,8 @@
                 <img src="images/chatroom.jpg" class="img-fluid">
               </div>
               <div class="col-lg-8 col-11">
-                <h4>TuKonekt&trade;  - Official Launch; 1 September 2019 </h4>
-                <p class="font-weight-bold">
+                <h4 class="rabbii-purple">TuKonekt&trade;  - Official Launch; 1 September 2019 </h4>
+                <p class="font-weight-bold rabbii-blue">
                   This is an application system that allows learners to interact with professionals
                   or experts who are online through our platform. Any qualified person can act as an
                   expert and answer the areas of concern that learners all across the country have.
@@ -235,7 +237,7 @@
   <!-- Timer -->
     <div class="row mt-5 wow fadeIn d-flex justify-content-center align-items-center col-md-12">
     <div class="text-center col-lg-4 mb-2 ml-5 ml-lg-0 ml-md-3">
-      <h1 class="h2-responsive mb-4 text-danger">
+      <h1 class="h2-responsive mb-4 text-purple">
         <strong>Official TeeCha&trade; Launch in</strong>
       </h1>
       <!-- Time Counter -->
@@ -245,7 +247,7 @@
 
   <!-- TeeCha -->
     <div class="col-11 wow fadeIn mx-auto bg-white" id="faqs">
-    <div class="row my-5 border p-3">
+    <div class="row my-5 border border-info p-3">
       <div class="col-11 text-center h2-responsive">TeeCha&trade;</div>
       <div class="col-lg-5 my-3 rabbii-purple">
         <div>TeeCha&trade; Mission</div>
@@ -270,20 +272,20 @@
           <li>Diversity of tuition areas; academics, languages, talents and hobbies</li>
         </ul>
         <div class="mt-3">TeeCha&trade; FAQs</div>
-        <button class="btn btn-outline-purple waves-effect" data-target="#brochures"
+        <button class="btn btn-outline-blue waves-effect" data-target="#brochures"
                 data-slide-to="4">Tutor FAQs</button>
         <button class="btn btn-outline-blue waves-effect"  data-target="#brochures"
                 data-slide-to="5">Client FAQs</button>
-        <div>Register here as a</div>
+        <div class="mt-2">Register here as a</div>
         <a type="button" class="btn btn-info btn-rounded" href="https://forms.gle/ZU8GZrYVPWenL4r19">
           TSC Tutor
         </a>
-        <a type="button" class="btn btn-purple btn-rounded" href="https://forms.gle/LerPUYib9EJ3yMxr7">
-          Non-TSC Tutor
-        </a>
         <a type="button" href="https://forms.gle/y7KTkMDtYCtAywDu6"
-           class="btn btn-teal btn btn-rounded">Client
+           class="btn btn-purple btn btn-rounded">Get a Tutor
           <i class="fas fa-address-card ml-2"></i>
+        </a>
+        <a type="button" class="btn btn-info btn-rounded" href="https://forms.gle/LerPUYib9EJ3yMxr7">
+          Non-TSC Tutor
         </a>
       </div>
       <div id="brochures" class="col-lg-7 my-3 carousel slide" data-ride="carousel">
@@ -323,7 +325,6 @@
           <div class="carousel-item rabbii-blue">
             <h4 class="my-2 text-center">Tutor FAQs</h4>
             <div class="teecha-faqs scroll">
-              <hr class="my-4">
               <ol class="mb-2 font-md">
                 <li class="font-weight-bold">Who can teach?</li>
                 <p>Every campus student is allowed to register with Rabbii through the link.
@@ -385,7 +386,7 @@
             </div>
           </div>
           <div class="carousel-item rabbii-blue">
-            <h4 class="my-2">Client FAQs</h4>
+            <h4 class="my-2 text-center">Client FAQs</h4>
             <div class="teecha-faqs scroll">
               <ol class="mb-4 font-md">
                 <li class="font-weight-bold">What is TeeCha?</li>
@@ -480,11 +481,11 @@
             </h4>
 
             <h4 class="mb-2">
-              <strong>Just click on the CLIENT tab and your Child’s performance will never be the same again. </strong>
+              <strong>Just click on the Get a Tutor tab and your Child’s performance will never be the same again. </strong>
             </h4>
 
             <a href="https://forms.gle/y7KTkMDtYCtAywDu6"
-               class="btn btn-purple btn-lg btn-rounded">Client
+               class="btn btn-purple btn-lg btn-rounded">Get a Tutor
               <i class="fas fa-address-card ml-2"></i>
             </a>
           </div>
@@ -508,7 +509,8 @@
                 others with your knowledge</strong>
             </h4>
 
-            <a class="btn btn-purple btn-lg btn-rounded" data-toggle="modal" data-target="#modalCoupon">Tutor
+            <a class="btn btn-purple btn-lg btn-rounded" data-toggle="modal"
+               data-target="#modalCoupon">Be a Tutor
               <i class="fas fa-chalkboard-teacher ml-2"></i>
             </a>
           </div>
@@ -518,13 +520,30 @@
     </div>
   </div>
 
-  <!-- blog -->
-    <div id="blogs" class="container-fluid m-auto">
+  <!-- articles -->
+    <div id="articles" class="container-fluid m-auto">
     <div class="row mb-5 wow fadeIn">
-      <div class="border bg-white col-10 p-5 m-auto">
-        <h2 class="text-left rabbii-purple pl-5 py-3">Blogs</h2>
+      <div class="border border-info bg-white row col-11 p-5 m-auto">
+        <div class="col-3 d-none d-lg-block">
+          <h2 class="text-left rabbii-purple pl-5 py-3">Articles</h2>
+          <ul class="articles rabbii-blue">
+            <li class="mb-2 click" data-target="#carousel-example-2" data-slide-to="0">
+              Rabbii&trade; Skills Categories <i class="fas fa-link"></i>
+            </li>
+            <li class="mb-2 click" data-target="#carousel-example-2" data-slide-to="1">
+              Rabbii&trade; TeeCha&trade; <i class="fas fa-link"></i>
+            </li>
+            <li class="mb-2 click" data-target="#carousel-example-2" data-slide-to="2">
+              Mid Term Kenyan Student <i class="fas fa-link"></i>
+            </li>
+            <li class="mb-2 click" data-target="#carousel-example-2" data-slide-to="3">
+              Studying Is Important, Learning Is Importanter <i class="fas fa-link"></i>
+            </li>
+          </ul>
+        </div>
         <!--Carousel Wrapper-->
-        <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+        <div id="carousel-example-2" class="carousel slide carousel-fade col-lg-9 col-12"
+             data-ride="carousel">
           <!--Indicators-->
           <ol class="carousel-indicators">
             <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
@@ -567,9 +586,7 @@
                     providing technology solutions. We exist to add value
                     <span class="d-none d-lg-block d-md-block">
                       to the society through providing Educational support services. The
-                      company is managed by a vibrant and energetic team with different skills
-                      sets and abilities who</span><span class="d-none d-lg-block d-md-block">are on a big mission
-                      to support people of all ages acquire and apply knowledge</span></p>
+                      company is managed by a vibrant...</span></p>
                   <a class="btn btn-pink btn-rounded" target="_blank"
                      href="https://rabbiitech.wordpress.com/2019/05/30/rabbii-teecha/">
                     <i class="fas fa-clone left"></i> View Blog</a>
@@ -590,9 +607,7 @@
                     <span class="d-none d-lg-block d-md-block">
                       Deep down my heart I am complaining; that life at school is tough, my grades
                       are diminishing at an increasing rate. I personally believe I am a bright
-                      student but I can’t trace the reasons for my failure; </span>
-                    <span class="d-none d-lg-block d-md-block">I spend more hours in the library,
-                      my parents spend a lot of money purchasing books for me,</span></p>
+                      student but I can’t trace the reasons for... </span></p>
                   <a class="btn btn-pink btn-rounded" target="_blank"
                      href="https://rabbiitech.wordpress.com/2019/06/10/mid-term-kenyan-student/">
                     <i class="fas fa-clone left"></i> View Blog</a>
@@ -608,11 +623,11 @@
                rgba-black-strong py-5 px-4">
                 <div>
                   <h5 class="pink-text"><i class="fas fa-chart-pie"></i>Rabbii&reg; Blog Communiity</h5>
-                  <h3 class="card-title pt-2"><strong>Studying Is Important, Learning Is Importanter</strong></h3>
-                  <p class="text-left">THE AVERAGE CHILD By Mike Buscemi</p>
+                  <h3 class="card-title py-2"><strong>Studying Is Important, Learning Is
+                    Importanter</strong></h3>
+                  <p class="text-left">THE AVERAGE CHILD</p>
+                  <p class="text-left">By Mike Buscemi</p>
                   <p>I don’t cause teachers trouble;</p>
-                  <p>My grades have been okay</p>
-                  <p>I listen in my classes.......</p>
                   <a class="btn btn-pink btn-rounded" target="_blank"
                      href="https://rabbiitech.wordpress.com/2019/05/30/studying-is-important-learning-is-importanter/">
                     <i class="fas fa-clone left"></i> Read More</a>
@@ -830,6 +845,11 @@
   <script src="js/animation.js"></script>
   <!-- Time Counter -->
   <script src="js/countdown.js"></script>
+  <script>
+    $("#faqs-link").click(function() {
+      $('#brochures').carousel(4);
+    });
+  </script>
 </body>
 
 </html>

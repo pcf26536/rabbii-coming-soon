@@ -108,6 +108,14 @@ header {
   height: 2.3125rem;
 }
 
+.articles {
+  font-size: 0.9em;
+}
+
+.click:hover {
+  cursor: pointer;
+}
+
 ul li.h3-responsive {
   list-style-image: url("images/favicon/favicon-32x32.png");
 }
