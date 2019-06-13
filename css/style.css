@@ -16,6 +16,10 @@ body {
   color: #893e8b;
 }
 
+.ctrls:hover {
+  color: #893e8b;
+}
+
 .teecha-faqs {
   max-height: 550px;
 }
