@@ -1,5 +1,5 @@
 body {
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-family: "Comic Sans MS", cursive, sans-serif;
   font-size: 1.2em;
   background: #1C2331 url("../images/photo-1454165804606-c3d57bc86b40-min.jpg") no-repeat fixed center center;
   background-size: cover;
@@ -126,6 +126,6 @@ ul li.h3-responsive {
 
 @media only screen and (max-width: 600px) {
   body {
-    /*width: 93%;*/
+    font-family: "Lucida Console", Monaco, monospace;
   }
 }
