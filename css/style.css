@@ -16,6 +16,10 @@ body {
   max-height: 600px;
 }
 
+#logo {
+  max-height: 25em;
+}
+
 .view,
 body,
 html,
