@@ -1,0 +1,143 @@
+body {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 1.2em;
+  background: #1C2331 url("../images/photo-1454165804606-c3d57bc86b40-min.jpg") no-repeat fixed center center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.rabbii-blue {
+  color: #025492;
+}
+
+.rabbii-purple {
+  color: #893e8b;
+}
+
+.ctrls:hover {
+  color: #893e8b;
+}
+
+.teecha-faqs {
+  max-height: 550px;
+}
+
+#logo {
+  max-height: 25em;
+}
+
+.view,
+body,
+html,
+header {
+  height: 100%
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, .2)
+}
+
+.page-footer,
+.top-nav-collapse {
+  background-color: #1C2331
+}
+
+@media only screen and (max-width:768px) {
+  .navbar {
+    background-color: #1C2331
+  }
+}
+
+#time-counter {
+  font-size: 3rem
+}
+
+.carousel-indicators .active {
+  background-color: #30fbff;
+}
+
+
+@media (max-width: 559px) {
+
+  html,
+  body,
+  header,
+  .view {
+    height: 1000px;
+  }
+}
+
+@media (min-width: 560px) and (max-width: 740px) {
+
+  html,
+  body,
+  header,
+  .view {
+    height: 700px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+
+  html,
+  body,
+  header,
+  .view {
+    height: 600px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #1C2331 !important;
+  }
+}
+
+.scroll {
+  overflow-y: scroll;
+}
+
+.text-purple {
+  color: #f442f1;
+}
+
+.text-torquise {
+  color: #30fbff !important;
+}
+
+.logo-img {
+  background-repeat: no-repeat;
+  height: 2.3125rem;
+}
+
+.articles {
+  font-size: 0.9em;
+}
+
+.click:hover {
+  cursor: pointer;
+}
+
+ul li.h3-responsive {
+  list-style-image: url("images/favicon/favicon-32x32.png");
+}
+
+.video-intro {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.bg-blue {
+  background-color: #1C2331;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-family: "Lucida Console", Monaco, monospace;
+  }
+}
