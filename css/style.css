@@ -142,6 +142,28 @@ ul li.h3-responsive {
   }
 }
 
-.font-weight-bold{
+#intro p,{
   color: #000000;
 }
+
+#services p{
+  color: #000000;
+}
+
+#faqs p{
+  color: #000000;
+}
+
+#faqs li{
+  color: #000000;
+}
+
+#form-links strong {
+  color: #000000;
+  font-size: 0.85em;
+}
+
+#mission{
+  color: #800080;
+}
+
