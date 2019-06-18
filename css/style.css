@@ -95,6 +95,19 @@ header {
   }
 }
 
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 0.9em;
+    }
+    #faqs {
+        padding: 0;
+    }
+    #form-links strong {
+        font-size: 0.55em;
+    }
+}
+
+
 .scroll {
   overflow-y: scroll;
 }
@@ -157,12 +170,9 @@ ul li.h3-responsive {
 #faqs li{
   color: #000000;
 }
-
 #form-links strong {
-  color: #000000;
-  font-size: 0.85em;
+    color: #000000;
 }
-
 #mission{
   color: #800080;
 }
