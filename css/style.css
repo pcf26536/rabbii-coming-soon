@@ -8,15 +8,15 @@ body {
   -o-background-size: cover;
 }
 
+.ctrls {
+  color: #000;
+}
+
 .rabbii-blue {
   color: #025492;
 }
 
 .rabbii-purple {
-  color: #893e8b;
-}
-
-.ctrls:hover {
   color: #893e8b;
 }
 
