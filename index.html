@@ -913,19 +913,6 @@
       $('#brochures').carousel(4);
     });
 
-    $(".scroll-down").click(function() {
-      let contentDiv = $(this).parent().prev();
-      let sc = contentDiv.scrollTop();
-      contentDiv.scrollTop(20 + sc);
-    });
-
-    $(".scroll-up").click(function() {
-      let contentDiv = $(this).parent().next();
-      //alert(contentDiv.attr('class'));
-      let sc = contentDiv.scrollTop();
-      contentDiv.scrollTop(sc - 20);
-    });
-
     $('.carousel').carousel({
       interval: 20000
     });
