@@ -586,7 +586,7 @@
           </ul>
         </div>
         <!--Carousel Wrapper-->
-        <div id="carousel-example-2" class="carousel slide carousel-fade col-lg-9 col-12"
+        <div id="articles-carousel" class="carousel slide carousel-fade col-lg-9 col-12"
              data-ride="carousel">
           <!--Indicators-->
           <ol class="carousel-indicators">
@@ -925,6 +925,11 @@
       let sc = contentDiv.scrollTop();
       contentDiv.scrollTop(sc - 20);
     });
+
+    $('.carousel').carousel({
+      interval: 20000
+    });
+
   </script>
 </body>
 
