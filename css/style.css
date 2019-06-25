@@ -33,6 +33,11 @@ body {
   padding: 0;
 }
 
+.card.areas .card-body {
+  max-height: 40%;
+  padding: 0;
+}
+
 .view,
 body,
 html,
