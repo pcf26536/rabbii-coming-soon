@@ -28,6 +28,11 @@ body {
   max-height: 25em;
 }
 
+.card.areas .card-header {
+  max-height: 40px;
+  padding: 0;
+}
+
 .view,
 body,
 html,
