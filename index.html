@@ -1034,7 +1034,11 @@
     // Tooltips Initialization
     $(function () {
       $('[data-toggle="tooltip"]').tooltip()
-    })
+    });
+
+    $('.areas').click(function() {
+      $('.areas').tooltip('hide');
+    });
   </script>
 </body>
 
