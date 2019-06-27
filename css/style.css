@@ -8,15 +8,15 @@ body {
   -o-background-size: cover;
 }
 
+.ctrls {
+  color: #000;
+}
+
 .rabbii-blue {
   color: #025492;
 }
 
 .rabbii-purple {
-  color: #893e8b;
-}
-
-.ctrls:hover {
   color: #893e8b;
 }
 
@@ -26,6 +26,16 @@ body {
 
 #logo {
   max-height: 25em;
+}
+
+.card.areas .card-header {
+  max-height: 40px;
+  padding: 0;
+}
+
+.card.areas .card-body {
+  max-height: 40%;
+  padding: 0;
 }
 
 .view,
@@ -95,6 +105,19 @@ header {
   }
 }
 
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 0.9em;
+    }
+    #faqs {
+        padding: 0;
+    }
+    #form-links strong {
+        font-size: 0.55em;
+    }
+}
+
+
 .scroll {
   overflow-y: scroll;
 }
@@ -141,3 +164,26 @@ ul li.h3-responsive {
     font-family: "Lucida Console", Monaco, monospace;
   }
 }
+
+#intro p {
+  color: #000000;
+}
+
+#services p{
+  color: #000000;
+}
+
+#faqs p{
+  color: #000000;
+}
+
+#faqs li{
+  color: #000000;
+}
+#form-links strong {
+    color: #000000;
+}
+#mission{
+  color: #800080;
+}
+
