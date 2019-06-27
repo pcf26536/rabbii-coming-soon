@@ -20,6 +20,10 @@ body {
   color: #893e8b;
 }
 
+.pun-ad {
+  background-image: url("../images/puns/MyPost(2).png");
+}
+
 .teecha-faqs {
   max-height: 550px;
 }
